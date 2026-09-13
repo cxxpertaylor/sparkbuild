@@ -41,3 +41,10 @@ I think they’ll say it helps them find a coding project for their resume. The 
 The landing page does a good job showcasing the primary capability and value of Sparkbuild. The agent's first draft had far too much text in different sizes and fonts, which was distracting and overwhelming to a new user. I removed mostly everything on the home page except for the motto "You have the skills. All you need is a spark" and a single prominent “Find your passion project” button. Underneath, I told my agent to implement the three numbered steps (Choose a real problem, Build it, Add it to your resume) connected by a line to illustrate the easy process.
 Screens 2 and 3 stay on mission and look uniform with the rest of the app. I used simple lines and borders to group related concepts together, making everything easier to digest. The landing screen is accessible from everywhere via the header link. 
 The AI initially did a very good job. It understood the value of the app and delivered it through a very polished and clean user-interface. It just needed a little bit of guidance to truly make it human-friendly. Specifically, it originally crowded the home page with one-line sentences, a featured project tile that was overwhelming at first glance, and an out-of-place secondary footer that ultimately inspired the 3-step roadmap under the "Find your passion project" button. The end result is a simple landing page entirely focused on communicating the main mission of the app--to enable users to quickly find a passion project to strengthen their resume.
+
+## Screenshots
+Before:
+![Before](Screenshot%202026-09-12%20201249.png)
+
+After:
+![After](Screenshot%202026-09-12%20202109.png)
