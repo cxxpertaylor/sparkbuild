@@ -22,16 +22,16 @@ Design question: Do the cards and filters make it easy for developers to quickly
 Design question: Does the screen provide enough information for a developer to confidently choose the project?
 
 ## Design Question plan
-## Need 
+### Need 
 “Think about the last time you wanted to build a personal coding project. How did you find an idea, and what was annoying about that?”
 I think they’ll say they looked online but kept finding the same generic projects. The browse screen gives them specific problems to solve, with difficulty and time estimates to help them choose.
-## Value 
+### Value 
 “If you found an idea here that you were excited to build, what would that do for you? How would you describe that benefit in one or two words?”
 I think they’ll say “direction” or “confidence.” The details screen gives them a problem, who it helps, and what to build first, so they have a clear starting point.
-## Persona 
+### Persona 
 “When do you usually work on coding projects outside of class or work, and how much time do you have for them?” 
 I think they’ll say evenings or weekends, with only a few hours available each week. The time filter and build estimates are there to help them find something that fits their schedule.
-## Capability
+### Capability
 “I’m going to show you the home page for five seconds and then hide it. What do you think this website helps you do?”
 I think they’ll say it helps them find a coding project for their resume. The “Find your passion project” button and the three steps on the home page should make that clear.
 
