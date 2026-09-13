@@ -1,0 +1,66 @@
+.home-hero {
+  padding: clamp(4rem, 10vh, 7rem) 0 4rem;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.home-hero h1 {
+  max-width: 66rem;
+  margin: 0 auto 2.5rem;
+  font-size: clamp(2.5rem, 6vw, 4.75rem);
+  line-height: 1.16;
+  letter-spacing: -.045em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+.home-hero .button { font-size: 1.125rem; padding: 1rem 1.75rem; }
+.home-process {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 57rem;
+  margin: 0 auto;
+  padding: 1.5rem 0 5rem;
+  list-style: none;
+  font-family: 'Space Grotesk', sans-serif;
+}
+.home-process li {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.125rem;
+  padding: 0 .75rem;
+  text-align: center;
+  font-size: 1.125rem;
+}
+.home-process li:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  height: 1px;
+  width: calc(100% - 3rem);
+  top: 1.5rem;
+  left: calc(50% + 1.5rem);
+  background: #726b32;
+}
+.process-number {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  border: 1px solid #726b32;
+  border-radius: 50%;
+  color: var(--yellow);
+  background: var(--bg);
+}
+@media (max-width: 650px) {
+  .home-hero { padding: 3.5rem 0 3rem; }
+  .home-hero .button { font-size: 1rem; gap: 1rem; max-width: 100%; }
+  .home-process { grid-template-columns: 1fr; max-width: 21rem; padding: 0 0 3rem; }
+  .home-process li { flex-direction: row; text-align: left; min-height: 5rem; padding: 0; }
+  .home-process li:not(:last-child)::after {
+    left: 1.5rem;
+    top: calc(50% + 1.5rem);
+    width: 1px;
+    height: 2rem;
+  }
+}
